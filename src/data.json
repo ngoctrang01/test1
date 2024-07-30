@@ -1,0 +1,6 @@
+{
+    "products": [{"id":1 , "name": "gamepad", "cost" : "120$" , "rate": "5(88)"},
+                        {"id":2 , "name": "keyboard", "cost" : "960$" , "rate": "4(75)"},
+                        {"id":3 , "name": "mornitor", "cost" : "370$" , "rate": "5(99)"},
+                        {"id":4 , "name": "chair", "cost" : "375$" , "rate": "5.5(99)"}]
+}

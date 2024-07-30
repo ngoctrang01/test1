@@ -1,0 +1,307 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #000000;
+    height: 48px;
+    color: #FAFAFA;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.menu {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.gr-menu {
+    display: flex;
+    align-items: center;
+}
+
+.exclusive{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.home {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border-bottom: 1px solid #000000;
+}
+
+.contact,
+.about,
+.contact,
+.signup {
+    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.search-cart {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    width: 220px;
+    height: 38px;
+    background-color: #F5F5F5;
+    padding: 5px 0 0 20px;
+}
+
+.inpSearch {
+    border-style: none;
+    background-color: #F5F5F5;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+.bo-catory{
+    display: flex;
+   margin-left: 60px;
+}
+.category{
+    width: 217px;
+    height: 344px;
+    border-right: 1px solid #000000;
+}
+.woman,.men,.electronic,.lifeStyle,.medicine,.sport,.babyToy,.groceries,.health{
+    margin-top: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.bo-right{
+    margin-left: 20px;
+    width: 892px;
+    height: 344px;
+    background-color: #000000;
+    position: relative;
+}
+.img-logo{
+    width: 40px;
+    height: 49px;
+}
+.title-ip{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 190px;
+    height: 49px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FAFAFA;
+}
+.voucher-ip{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #FAFAFA;
+    margin-left: 50px;
+    width: 294px;
+    height: 120px;
+}
+.shopNow-ip{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FAFAFA;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.gr-slide{
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+.button {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.button.active {
+    background-color: #333;
+}
+.img-phone{
+    position: absolute;
+    margin-left: 390px;
+}
+
+.content-pro{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.button-today{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+    height: 40px;
+}
+
+.today{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.flash-time{
+    margin-left: 7px;
+    display: flex;
+    align-items: center;
+}
+.flashSale{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+.gr-time{
+    display: flex;
+    align-items: center;
+}
+.f-day,.f-hour,.f-minute,.f-second{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.day,.hour,.minute,.second{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.num-day,.num-hour,.num-minute,.num-second{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.gr-next-back{
+    margin-left: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-back{
+    
+    border-radius: 50px;
+}
+.btn-next{
+    margin-left: 50px;
+    border-radius: 50px;
+}
+
+.bo-product{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.conten-product{
+    display: flex;
+    flex-direction: column;
+}
+.nd-product{
+    background-color: #F5F5F5;
+    width: 270px;
+    height: 250px;
+    position: relative;
+}
+.img-havit{
+    position: absolute;
+}
+
+.img-havit{
+    margin: 60px 0px 0 30px ;
+    width: 190px;
+    height: 180px;
+}
+.btn-saleHavit{
+    padding: 0 5px 10px 0;
+    width: 55px;
+    height: 26px;
+    margin: 20px 0 0 20px;
+    position: absolute;
+}
+.icon-heart{
+    width: 34px;
+    height: 34px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px 0 0 220px;
+    border-style: none;
+    position: absolute;
+}
+.icon-eye
+{
+    width: 34px;
+    height: 34px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 50px 0 0 220px;
+    border-style: none;
+    position: absolute;
+}
+
+.product-name{
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.gr-product-price{
+    display: flex;
+    align-items: center;
+}
+.product-price{
+    color: #DB4444;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.product-priceSale{
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 10px;
+    text-decoration: line-through;
+    opacity: 50%;
+}
+.gr-rate-view{
+    display: flex;
+}
+
+.btn-allProduct{
+    text-align: center;
+    margin: 50px 0 0 500px;
+    color: #FAFAFA;
+    width: 234px;
+    height: 56px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+
+
