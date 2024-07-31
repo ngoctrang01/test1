@@ -8,6 +8,7 @@ import monitor from './assets/images/monitor.png';
 import data from './data.json';
 import './style.css';
 import './App.css';
+import './script.js';
 
 function App() {
     const [count, setCount] = useState(0);
@@ -100,19 +101,35 @@ function App() {
                     </div>
 
                     <div className="bo-product">
-                        <div className="conten-product">
-                            {data.products.map(item => (
-                                <div className="nd-product" key={item.id}>
-                                    <img src={havit} alt="Product" className="img-havit" />
+                        {data.products.map(item => (
+                            <div className="conten-product" key={item.id}>
+                                <div className="nd-product" >
                                     <button className="icon-heart"><i className="fa-regular fa-heart" style={{ backgroundColor: "white" }}></i></button>
                                     <button className="icon-eye"><i className="fa fa-eye" style={{ backgroundColor: "white" }}></i></button>
                                     <div className="btn-saleHavit btn btn-danger">-40%</div>
+                                    <img src={havit} alt="Product" className="img-havit" />
                                 </div>
-                            ))}
-                            {/* Additional content here */}
-                        </div>
-                        <button className="btn-allProduct btn btn-danger">View All Products</button>
+                                <div className="product-name">{item.name}</div>
+                                <div className="gr-product-price">
+                                    <div className="product-price">{item.cost}</div>
+                                    <div className="product-priceSale">$400</div>
+                                </div>
+                                <div className="gr-rate-view">
+                                    <div className="rate">
+                                        <i className="fa-solid fa-star" style={{color: "#FFAD33"}}></i>
+                                        <i className="fa-solid fa-star"style={{color: "#FFAD33"}}></i>
+                                        <i className="fa-solid fa-star"style={{color: "#FFAD33"}}></i>
+                                        <i className="fa-solid fa-star" style={{color: "#FFAD33"}}></i>
+                                        <i className="fa-solid fa-star"style={{color: "#FFAD33"}}></i>
+                                    </div>
+                                    <div className="view">(99)</div>
+                                </div>
+                            </div>
+                        ))}
+                        {/* Additional content here */}
+
                     </div>
+                    <button className="btn-allProduct btn btn-danger">View All Products</button>
                 </div>
             </div>
         </>
